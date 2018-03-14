@@ -4,6 +4,7 @@ app = Flask(__name__)
 def hello():
     
     print ( "new ")
+        print( "new 2")
 	return "Hello World!"
 if __name__ == "__main__":
 	app.run()
